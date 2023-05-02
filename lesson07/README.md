@@ -108,7 +108,7 @@ select type, count(1) from `beer-sample`.`_default`.`_default` data group by typ
 ```json
 [
   {
-    "code": 12008`,
+    "code": 12008,
     "msg": "Error performing bulk get operation - cause: {2 errors, ... i/o timeout}",
     "retry": true
   }
