@@ -1,9 +1,10 @@
 *~
 \#*\#
 .\#*
-.vagrant/
-.terraform/
+.pyenv/
 .terraform.lock.hcl
-terraform.tfvars
+.terraform/
 terraform.tfstate
 terraform.tfstate.backup
+terraform.tfvars
+.vagrant/
