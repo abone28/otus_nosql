@@ -57,3 +57,7 @@ virtualenv --prompt "$VENV_NAME" "$VENV_DIR"
 
 python -m pip install pip --upgrade
 pip install -r requirements.txt
+
+# FIXME ставит в ~/.ansible/collections/ansible_collections
+ansible-galaxy collection install \
+               --requirements-file $BASE_DIR/ansible/galaxy/requirements.txt
